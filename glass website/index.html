@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content= "width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="css/all.min.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Stick&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Stick&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Satisfy&family=Shadows+Into+Light&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+	<title> GLASS WEBSITE </title>
+</head>
+
+<body>
+	
+	<audio autoplay loop>
+		<source src="audio.mp3" type="audio/mp3">
+	</audio>
+
+	<main>
+		<style> 
+			#clock { 
+				font-family: 'Pacifico', cursive;
+				font-size: 50px; 
+				color: rgb(255, 0, 0);
+				width: 300px; 
+				margin-top: 0px;
+				margin-left: -275px;
+				padding-right: 0px;
+				margin-right: 70px;
+				text-align: center; 
+			} 
+		</style> 
+		<div id="clock"> 8:10:45</div> 
+	  
+		<script> 
+			setInterval(showTime, 1000); 
+			function showTime() { 
+				let time = new Date(); 
+				let hour = time.getHours(); 
+				let min = time.getMinutes(); 
+				let sec = time.getSeconds(); 
+				am_pm = "AM"; 
+	  
+				if (hour > 12) { 
+					hour -= 12; 
+					am_pm = "PM"; 
+				} 
+				if (hour == 0) { 
+					hr = 12; 
+					am_pm = "AM"; 
+				} 
+	  
+				hour = hour < 10 ? "0" + hour : hour; 
+				min = min < 10 ? "0" + min : min; 
+				sec = sec < 10 ? "0" + sec : sec; 
+	  
+				let currentTime = hour + ":"  
+					+ min + ":" + sec +" "+ am_pm; 
+	  
+				document.getElementById("clock") 
+					.innerHTML = currentTime; 
+			} 
+	  
+			showTime(); 
+		</script> 
+		<section class="glass"> 
+			<div class="dashboard">
+				<div class="user">
+					<img src="images/1.jpg" height="250" width="250"> <br>
+					<h3 style="color:rgb(56, 0, 0)"> XcaVaToR </h3>
+					<p style="color:rgb(54, 28, 28)"><b> Pro Gamer </b></p>
+				</div>
+				<div class="links">
+					<div class="link">
+						<i class="fab fa-youtube fa-2x"></i> <br>
+						<h2><a href="https://www.youtube.com/channel/UCSEn5MQ1HUGWqme0YIxhA_w" target="_blank"> Gameplays </a></h2>
+					</div>
+					<div class="link">
+						<i class="fab fa-instagram-square fa-2x"></i> <br>
+						<h2><a href="https://www.instagram.com/a_wave_with_0_amplitude/?hl=en" target="_blank"> Instagram </a></h2><br>
+					</div>
+					<div class="link">
+						<i class="fab fa-steam fa-2x"></i> <br>
+						<h2><a href="https://steamcommunity.com/id/swastiksupakar" target="_blank"> Steam </a></h2>
+					</div>
+					<div class="link">
+						<i class="fas fa-music fa-2x"></i> <br>
+						<h2> <a href="https://music.youtube.com/playlist?list=PL45RgptZ6BODZbdTF3cQmgWf4oZK1_lh4" target="_blank"> Playlist </a></h2>
+					</div>
+				</div>
+			<div class="contact">
+				<h2> Contact me on the given ID's to play games with me. </h2>
+				<img src="images/download.png" height="90" width="90">
+			</div>
+		</div>
+			<div class="games">
+				<div class="status">
+					<h1> ACTIVE GAMES </h1>
+					<input type="text" />
+				</div>
+				<div class="cards">
+					<div class="card">
+						<p><a href="https://blog.counter-strike.net/" target="_blank"><img src="images/download.jfif" height="70" width="70"> </a></p>
+						<div class="card-info">
+							<h2 style="color:crimson"> COUNTER STRIKE : GLOBAL OFFENSIVE </h2>
+							<p style="color:rgb(0, 0, 168)"><b> RANK: Gold Nova 2 (when last played) </b></p>
+							<p style="color:rgb(0, 0, 168)"><b> ID: XcaVaToR (on steam)</b></p>
+							<div class="progress"></div>
+							</div>
+							<h2 class="percentage">61.07%</h2>
+						</div>
+						<div class="card1">
+							<p><a href="https://playvalorant.com/en-us/" target="_blank"><img src="images/2.jpg" height="70" width="70"> </a></p>
+							<div class="card-info1">
+								<h2 style="color:crimson"> VALORANT </h2>
+								<p style="color:rgb(0, 0, 168)"><b> RANK : Silver 1 (when last played)</b></p>
+								<p style="color:rgb(0, 0, 168)"><b>ID: XcaVaToR #4573</b></p>
+								</div>
+								<h2 class="percentage">30%</h2>
+							</div>
+							<div class="card2">
+								<p><a href="https://www.rockstargames.com/V/" target="_blank"><img src="images/ff3e12af5edebc5301ca1571986bb68d.png" height="70" width="70"> </a></p>
+								<div class="card-info2">
+									<h2 style="color:rgb(0, 29, 61)"> GRAND THEFT AUTO V </h2>
+									<p style="color:rgb(0, 5, 34)"><b> Heists Completed : 3</b></p>
+									<p style="color:rgb(0, 5, 34)"><b>ID: XcaVaToR58 (on Rockstar Games)</b></p>
+									</div>
+									<h2 class="percentage">60%</h2>
+								</div>
+								<div class="card3">
+									<p><a href="https://www.ea.com/games/apex-legends" target="_blank"><img src="images/apex-legends.png" height="70" width="70"> </a></p>
+									<div class="card-info3">
+										<h2 style="color:rgb(241, 238, 52)"> APEX LEGENDS </h2>
+										<p style="color:rgb(241, 238, 52)"><b> Total matches played : 100 </b></p>
+										<p style="color:rgb(241, 238, 52)"><b>ID: XcaVaToR58 (on Origin) </b></p>
+										</div>
+									</div>
+					</div>
+			</div>
+		</section>
+		
+	</main>
+	
+	<div class="circle1"></div>
+	<div class="circle2"></div>
+
+	<div class="footer">
+		<p style="color:rgb(82, 0, 150)">Made with <i class="fas fa-heart fa-color"></i> by Swastik. <i class="fas fa-smile-wink fa-color1"></i> </p>
+		</div>
+
+</body>
+
+</html>
+			
