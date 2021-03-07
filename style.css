@@ -1,0 +1,328 @@
+*
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+h1
+{
+	color: #426696;
+	font-weight: 600;
+	font-size: 3rem;
+	opacity: 0.8;
+}
+
+h2,p
+{
+	color: #658ec6;
+	font-weight: 500;
+	opacity: 0.8;
+}
+h3
+{
+	color: #426696;
+	font-size: 3rem;
+	opacity: 0.8;
+}
+
+main
+{
+	font-family: 'Akaya Telivigala', cursive;
+	min-height: 100vh;
+	background: linear-gradient(to right top, #07eec4, #00d7f8);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: auto;
+	position: relative;
+}
+	
+.glass
+{
+	background: white;
+	min-height: 80vh;
+	width: 60%;
+	background: linear-gradient(to right bottom, 
+		rgba(207, 211, 247, 0.7), rgba(92, 75, 245, 0.3));
+	border-radius: 2rem;
+	z-index: 2;
+	backdrop-filter: blur(2rem);
+	display: flex;
+}
+
+.circle1, .circle2
+{
+	background: white;
+	background: linear-gradient(to right bottom, 
+		rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.3));
+	height: 20rem;
+	width: 20rem;
+	position: absolute;
+	border-radius: 50%;
+}
+
+.circle1
+{
+	top: -1%;
+	right: 15%;
+}
+
+.circle2
+{
+	bottom: -2%;
+	left: 10%;
+}
+	
+.dashboard
+{
+		flex: 1;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: space-evenly;
+		text-align: center;
+		background: linear-gradient(to right bottom, 
+		rgba(222, 224, 255, 0.8), rgba(4, 8, 245, 0.3));
+		border-radius: 2rem;
+}
+
+.user img
+{
+	border-radius: 2rem;
+	margin-top: 10px;
+}
+
+.user h3
+{
+	font-family: 'Stick', sans-serif;
+	font-size: 50px;
+}
+
+.user p
+{
+	font-family: 'Stick', sans-serif;
+	font-size: 25px;
+}
+.link
+{
+	display: flex;
+	margin: 1.3rem 0rem;
+	padding: 0.5rem 1rem;
+	align-items: center;
+	font-family: 'Satisfy', cursive;
+}
+
+.link a
+{
+	text-decoration: none;
+}
+
+.link h2
+{
+	padding: 0rem 1.5rem;
+	font-size: 30px;
+}
+
+.games
+{
+	flex: 2;
+}
+
+.contact
+{
+	background: linear-gradient(to right top, #f5bbf5, #ee73dd);
+	color: white;
+	padding: 1rem;	
+	margin: 2rem;
+	border-radius: 2rem;
+	margin-bottom: 15px;
+	margin-top: -15px;
+	display: flex;
+	position: relative;
+}
+
+.contact h2
+{
+	padding-left: 5px;
+	width: 40%;
+	color: rgb(32, 7, 255);
+	font-weight: 600;
+	font-family: 'Satisfy', cursive;
+	font-size: 22px;
+	letter-spacing: 1px;
+}
+
+.contact img
+{
+	border-radius: 2rem;
+	position: absolute;
+	top: 25%;
+	right: 15%;
+}
+
+/* games section */
+
+.status
+{
+	margin-top: 0.1rem;
+}
+
+.status input
+{
+	background: linear-gradient(to right bottom, 
+		rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.3));
+	border: none;
+	width: 50%;
+	padding: 1px;
+	border-radius: 2rem;
+}
+
+.games
+{
+	margin: 2rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+
+}
+
+.cards
+{
+	padding-top: -75px;
+}
+
+.card, .card1,.card2,.card3
+{
+	display: flex;
+	margin: 2rem 0rem;
+	border-radius: 1rem;
+	padding: 2rem;
+	box-shadow: 6px 6px 20px rgba(122,122,122, 0.753);
+	justify-content: space-between;
+}
+
+.card
+{
+	background-color: rgb(243, 243, 149);
+}
+.card1
+{
+	background: rgb(240, 140, 140);
+}
+.card2
+{
+	background: rgb(130, 241, 130);
+}
+.card3
+{
+	background: rgb(243, 27, 27);
+
+}
+  .card-info, .card-info1, .card-info2
+  {
+	  display:flex;
+	  flex-direction: column;
+	  justify-content: space-between;
+  }
+
+  .card-info h2
+  {
+	font-family: 'Stick', sans-serif;
+	font-size: 20px;
+	font-size: bold;
+	margin-left: 20px;
+  }
+  
+  .card-info p
+  {
+	font-family: 'Shadows Into Light', cursive;
+	font-size: 20px;
+	font-size: bold;
+	margin-left: 20px;
+	letter-spacing: 1.7px;
+  }
+
+.card-info1 h2
+{
+	font-family: 'Stick', sans-serif;
+	margin-left: -50px;
+	font-size: 20px;
+	font-size: bold;
+
+}
+
+.card-info1 p
+{
+	margin-left: -50px;
+	font-size: 20px;
+	font-family: 'Shadows Into Light', cursive;
+	font-size: bold;
+	letter-spacing: 1.7px;
+
+}
+
+.card-info2 h2
+{
+	text-align: center;
+	font-family: 'Stick', sans-serif;
+	margin-left: -160px;
+	font-size: 20px;
+	font-size: bold
+}
+
+.card-info2 p
+{
+	margin-left: -60px;
+	font-size: 20px;
+	font-family: 'Shadows Into Light', cursive;
+	font-size: bold;
+	letter-spacing: 1.7px;
+}
+
+.card-info3 h2
+{
+	text-align: center;
+	font-family: 'Stick', sans-serif;
+	margin-left: -350px;
+	font-size: 20px;
+	font-size: bold
+}
+
+.card-info3 p
+{
+	margin-right: 270px;
+	font-size: 20px;
+	font-family: 'Shadows Into Light', cursive;
+	font-size: bold;
+	letter-spacing: 1.7px;
+}
+
+  .percentage
+  {
+	  font-weight: bold;
+	  background: linear-gradient(to right top, #fa0101, #be0000);
+	  -webkit-background-clip: text;
+	  -webkit-text-fill-color: transparent;
+  }
+
+  .footer
+{
+	padding-top: 25px;
+	padding-bottom: 25px;
+	text-align: center;
+	font-family: 'Courgette', cursive;
+	font-weight: bold;
+	font-size: 40px;
+	background: linear-gradient(to right top, #07eec4, #00d7f8);
+}
+
+.fa-color
+{
+	color: red;
+}
+
+.fa-color1
+{
+	color: green;
+}
